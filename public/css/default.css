@@ -1,0 +1,70 @@
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+@import "http://fonts.googleapis.com/css?family=Indie+Flower";
+
+body{
+    background: #FAFAFA;
+    font-family: 'Ubuntu', Tahoma, sans-serif;
+    font-size: 15px;
+    color: #4B4F54;
+}
+
+.Main-Container{
+    background: #FFFFFF;
+    border: 1px solid #EDEEEE; 
+    margin: 20px auto 50px auto;
+    width: 1100px;
+    box-shadow: 0 0 15px 0 #EEEEEE;
+    border-radius: 0 0 7px 7px;
+}
+
+.footer{
+    margin: 20px auto 50px auto;
+    width: 1000px;
+    font-family: Indie Flower, cursive;
+    color: #3570A0;
+    text-align: center;
+}
+
+.label{
+    border: 0;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+} 
+
+.label:hover { 
+    background: rgb(53, 167, 110); 
+    cursor: pointer;
+}
+
+.label:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.label-red{
+    border: 0;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(255,170,136);
+    box-shadow: 0 -3px rgb(242,85,51) inset;
+    transition: 0.2s;
+} 
+
+.label-red:hover { 
+    background: rgb(242,85,51); 
+    cursor: pointer;
+}
+
+.label-red:active {
+    background: rgb(255,85,51);
+    box-shadow: 0 3px rgb(255,85,51) inset;
+}

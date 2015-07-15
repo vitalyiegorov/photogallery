@@ -1,0 +1,48 @@
+#editPhoto{
+    padding: 20px;
+}
+
+#editPhoto .item{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#editPhoto .item img{
+    width: 341px;
+    height: 341px;
+    margin-right: 10px;
+}
+
+#editPhoto .item textarea{
+    min-width: 315px;
+    max-width: 315px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+#message{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    width: 300px;
+    height: 80px;
+    background: rgba(40,30,40,.8);
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+}
+
+#message .text{
+    margin-top: 5px;
+    color: #fff;
+}
+
+#message .close{
+    background: url('/public/icons/close-mess.png'); 
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
